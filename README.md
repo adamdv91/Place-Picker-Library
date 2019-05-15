@@ -19,7 +19,7 @@ is required to be added in the manifest of the application
 
 Once the library is cloned or downloaded, simply call this fuction;
 
-`startActivityForResult(getAdamPlacePickerIntent(MainActivity.this), 1);`
+`startActivityForResult(getPlacePickerIntent(MainActivity.this), 1);`
 
 when you want to open the map. 
 
