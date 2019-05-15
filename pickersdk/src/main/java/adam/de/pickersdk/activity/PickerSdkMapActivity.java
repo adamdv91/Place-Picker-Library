@@ -56,7 +56,7 @@ public class PickerSdkMapActivity extends AppCompatActivity implements OnMapRead
 
     public static final String PLACE_RESULTS = "place_results";
 
-    public static Intent getAdamPlacePickerIntent(Context context) {
+    public static Intent getPlacePickerIntent(Context context) {
         return new Intent(context, PickerSdkMapActivity.class);
     }
 
