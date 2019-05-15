@@ -12,7 +12,7 @@ import android.widget.TextView;
 import adam.de.pickersdk.activity.PickerSdkMapActivity;
 import adam.de.pickersdk.model.PlaceModel;
 
-import static adam.de.pickersdk.activity.PickerSdkMapActivity.getAdamPlacePickerIntent;
+import static adam.de.pickersdk.activity.PickerSdkMapActivity.getPlacePickerIntent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         openMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivityForResult(getAdamPlacePickerIntent(MainActivity.this), 1);
+                startActivityForResult(getPlacePickerIntent(MainActivity.this), 1);
             }
         });
     }
