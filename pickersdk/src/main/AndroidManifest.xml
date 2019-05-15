@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="adam.de.pickersdk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAS_rWwohqEAB7bENPh-J_O5nKLy5ka7lg"/>
+
+        <activity android:name=".activity.PickerSdkMapActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>
+
+

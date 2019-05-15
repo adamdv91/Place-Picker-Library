@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Picker Sdk</string>
+    <string name="submit">Submit</string>
+    <string name="pin_on_map_message">Please first select a mark on the map</string>
+    <string name="search">Search</string>
+    <string name="type_address_here">Type address here</string>
+    <string name="no_results">There are no results, try a different search</string>
+    <string name="text_missing">Please enter text into the field above</string>
+    <string name="error_message">Unexpected error occurred, please try again</string>
+</resources>

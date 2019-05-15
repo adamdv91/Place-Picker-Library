@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Place Picker Library</string>
+    <string name="title">Adam\'s Map Picker Library</string>
+    <string name="button_message">Display Map</string>
+    <string name="latitude_display">This is the latitude of the selected place: %f</string>
+    <string name="longitude_display">This is the longitude of the selected place: %f</string>
+    <string name="street_display">This is the street address of the selected place: %s</string>
+</resources>
