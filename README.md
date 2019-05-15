@@ -27,11 +27,16 @@ Once a user has pin pointed a location, either by search or by press, it will st
 To access these variables, the developer needs to do this;
 
 ```
-if(requestCode == 1){
+@Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == 1){
             if(resultCode == Activity.RESULT_OK){
                 PlaceModel placeModel = PickerSdkMapActivity.getPlace(data);
             }
         }
+    }
 ```
 
 The developer has full control over what they decide to do with the result data once the model is set;
