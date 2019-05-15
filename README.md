@@ -1,4 +1,4 @@
-# Place-Picker-Library
+# Place Picker Library
 
 Place picker library is a very basic, very simple library created to grab a picked location on google maps.
 
